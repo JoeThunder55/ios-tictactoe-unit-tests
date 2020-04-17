@@ -8,6 +8,8 @@
 
 import Foundation
 
-func game(board: GameBoard, isWonBy player: GameBoard.Mark) -> Bool {    
+func game(board: GameBoard, isWonBy player: GameBoard.Mark) -> Bool {
+    
+    let topPositions = [(0,0), (1,0), (2,0)]
     return false
 }

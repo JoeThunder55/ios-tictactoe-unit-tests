@@ -8,6 +8,17 @@
 
 import Foundation
 
+enum Position {
+    case topLeft
+    case topCenter
+    case topRight
+    case middleLeft
+    case middleCenter
+    case middleRight
+    case bottomLeft
+    case bottomCenter
+    case bottomRight
+}
 enum GameBoardError: Error, Equatable {
     case invalidSquare
 }
